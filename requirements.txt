@@ -8,6 +8,5 @@ matplotlib
 seaborn
 pandas_datareader
 datetime
-os
 scipy
 plotly
