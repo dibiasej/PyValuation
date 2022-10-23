@@ -1,0 +1,16 @@
+numpy
+yfinance
+pandas
+bs4
+requests
+numpy_financial
+matplotlib.pyplot
+seaborn
+pandas_datareader
+datetime
+os
+scipy.optimize
+scipy.interpolate
+plotly.express
+plotly.graph_objects
+plotly.subplots

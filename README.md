@@ -1,0 +1,208 @@
+# PyVal
+
+A library for stock and portfolio valuation.
+This was originally made to help aid in my own stock valuation approach but I wanted to allow others to utilize this code as well.
+The library is made up of four basic parent classes that inherent from two child classes.
+The four parent classes are DCF, Valuation, RelativeValue and PortfolioValuation and the two child classes are FinancialData and ValuationCharts.
+
+## Installation
+>pip install PyVal
+
+## Get started
+
+### FinancialData
+
+The child class FinancialData is used for calculating numerous stock valuation metrics. These valuation metrics include Price to Earnings, Price to Sales, Return on Capital, company margins and others.
+
+FinancialData class also acts as a parent class and inherents the FinancialStatements child class.
+
+The FinancialStatements child class uses two methods to pull companies Income Statements, Balance Sheets and Cash Flow Statements. The first method is a basic call to the yfinance modules respective get_financials, get_balancesheet, get_cashflow functions. The second method FinancialStatements uses is a webscrapping version where we utilize BeautifulSoup from the bs4 module to pull the companies financial statements from yahoo finance directly.
+
+How to pull specific financial statments using both methods.
+
+1) yfinance module
+
+```
+import PyVal as pv
+
+stock = pv.FinancialData('TICKER')
+
+stock.balancesheet()
+```
+
+2) BeautifulSoup
+
+```
+import PyVal as pv
+
+stock = pv.FinancialData('TICKER')
+
+stock.soupbalancesheet()
+```
+
+FinancialData's main method is the input function used to calculate multiple valuation metrics and inputs for a discounted cash flow model.
+
+How to use FinancialData's input function.
+
+```
+import PyVal as pv
+
+stock = pv.FinancialData('TICKER')
+
+stock._inputs()
+```
+
+The inputs function will return a dictonary of valutaion metrics including the following, Retention Ratio's, Reinvestment Rate, Cost of Equity, Return on Capital and others.
+
+### ValuationCharts
+
+ValuationCharts is another child class that calculates valuation metrics and plots them over time. This is useful for analyzing how specific company metrics change during certain market periods.
+
+ValuationCharts relies on the bs4 module to web scrape historical shares outstanding. The historical shares outstanding is used in numerous other calculations like calculating and plotting a historical price to earnings ratio.
+
+How to use Valuation charts
+
+1) Plotting shares outstanding over time.
+
+```
+import PyVal as pv
+
+stock = pv.ValuationCharts('TICKER')
+
+stock.sharesoutstanding_chart()
+```
+
+2) Plotting basic valuation metric over time
+
+```
+import PyVal as pv
+
+stock = pv.ValuationCharts('TICKER')
+
+stock.pb_chart()
+```
+
+### Valuation
+
+The Valuation class acts as a parent class to ValuationCharts so it has multiple plotting capabilities within it. Valuation also calculates multiple valuation metrics but displays them using print statements in a more visually pleasing manner.
+
+The Valuation classes main methods are credit_score, cogp and undervalue spotting.
+
+1) credit_score
+
+The credit_score method uses the modified Altman's Z-score to calculate a make shift credit score and uses a print statement to display the stock in questions credit score compared to what its potential credit rating would be.
+
+```
+import PyVal as pv
+
+stock = pv.Valuation('TICKER')
+
+stock.credit_score()
+``` 
+
+2) cogp
+
+cogp or core operating growth profile is a useful metric for calculting the cash generating power of a company. The cogp method calculates the operating cushion and subtracts that from the working capital to revenue percentage to get the core operating growth profile.
+
+```
+import PyVal as pv
+
+stock = pv.Valuation('TICKER')
+
+stock.cogp()
+```
+
+3) undervalue_spotting
+
+The undervalue_spotting method calculates numeroud valuation metrics and uses print statements to display them in a way that is easy to read and compare in order to spot if a company is traditionaly undervalued.
+
+```
+import PyVal as pv
+
+stock = pv.Valuation('TICKER')
+
+stock.undervalue_spotting()
+``` 
+
+### DCF
+
+The DCF class is used for dicounted cash flow modeling of a company. The DCF class has methods current_cashflows, growth_rates, projected_cashflows, intrinsic_value and outside_spread.
+
+We will use the outside_spread as an example.
+
+```
+import PyVal as pv
+
+stock = pv.DCF('TICKER')
+
+stock.outside_spread()
+```
+
+We can also specify the inputs for the free cash flow equity and free cash flow to the firm that will be used
+
+```
+import PyVal as pv
+
+stock = pv.DCF('TICKER')
+
+stock.outside_spread(10000000000, 10000000000)
+
+```
+
+### RelativeValue
+
+The RelativeValue class does similar calculations as the Valuation class but on a larger scale. The RelativeValue class uses a csv that has a list of S&P 500 company tickers and there respective industries in order to calculate multiple metrics for the specific industry as a whole.
+
+There is also a market_share function that calculates the total revenue of an idustry and then plots pie charts and bar charts showing all the companies revenue as a percent of the total industries revenue.
+
+```
+import PyVal as pv
+
+stock = pv.RelativeValue('TICKER')
+
+stock.market_share()
+```
+
+### PortfolioValuation
+
+The PortfolioValuation class is used to evaluate an investors portfolio. The class takes as parameters a start date and end date, cash in the portfolio and uses the keyword arguments functionality of python for a user to input any amount of tickers as the keys and the quantity of shares as the value.
+
+The PortfolioValuation class has methods portfolio_performance, asset_allocation and efficient_frontier.
+
+1) portfolio_performance
+
+The portfolio_performance method uses the pandas_datareader module to pull the stock prices of the given tickers for the specified time period then calculates and plots the cumulative return of the aggregated portfolio.
+
+```
+import PyVal as pv
+
+stock = pv.PortfolioValuation(start, end, TICKER = Quantity)
+
+stock.portfolio_performance()
+```
+
+2) asset_allocation
+
+The asset_allocation method visualises the holding in the portfolio as a percent of the aggregate capital in the portfolio as a pie chart.
+
+```
+import PyVal as pv
+
+stock = pv.PortfolioValuation(start, end, TICKER = Quantity)
+
+stock.asset_allocation()
+``` 
+
+3) efficient_frontier
+
+The efficient_frontier module takes as parameters a lower bound and upper bound for a target return level, and also takes in as an optional parameter the volatility of a portfolio along the effecient frontier.
+
+The method returns a graph of the effecient frontier and if given the volatility parameter the method returns the weights of the optimal portfolio.
+
+```
+import PyVal as pv
+
+stock = pv.PortfolioValuation(start, end, TICKER = Quantity)
+
+stock.efficient_frontier(.1, .3)
+``` 

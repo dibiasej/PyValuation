@@ -1,0 +1,506 @@
+Ticker,Company,Industry,Headquarter,Date added to SP500,Founded
+A,Agilent Technologies,Health Care,California,6/5/2000,1999
+AAL,American Airlines Group,Industrials,Texas,3/23/2015,1934
+AAP,Advance Auto Parts,Consumer Discretionary,North Carolina,7/9/2015,1932
+AAPL,Apple,Information Technology,California,11/30/1982,1977
+ABBV,AbbVie,Health Care,Illinois,12/31/2012,1888
+ABC,AmerisourceBergen,Health Care,Pennsylvania,8/30/2001,1985
+ABMD,Abiomed,Health Care,Massachusetts,5/31/2018,1981
+ABT,Abbott Laboratories,Health Care,Illinois,3/31/1964,1888
+ACN,Accenture,Information Technology,Ireland,7/6/2011,1989
+ADBE,Adobe,Information Technology,California,5/5/1997,1982
+ADI,Analog Devices,Information Technology,Massachusetts,10/12/1999,1965
+ADM,ADM,Consumer Staples,Illinois,7/29/1981,1902
+ADP,Automatic Data Processing,Information Technology,New Jersey,3/31/1981,1949
+ADSK,Autodesk,Information Technology,California,12/1/1989,1982
+AEE,Ameren Corp,Utilities,Missouri,9/19/1991,1902
+AEP,American Electric Power,Utilities,Ohio,3/4/1957,1906
+AES,AES Corp,Utilities,Virginia,10/2/1998,1981
+AFL,Aflac,Financials,Georgia,5/28/1999,1955
+AIG,American International Group,Financials,New York,3/31/1980,1919
+AIZ,Assurant,Financials,New York,4/10/2007,1892
+AJG,Arthur J. Gallagher & Co.,Financials,Illinois,5/31/2016,1927
+AKAM,Akamai Technologies,Information Technology,Massachusetts,7/12/2007,1998
+ALB,Albemarle Corporation,Materials,North Carolina,7/1/2016,1994
+ALGN,Align Technology,Health Care,California,6/19/2017,1997
+ALK,Alaska Air Group,Industrials,Washington,5/13/2016,1985
+ALL,Allstate Corp,Financials,Illinois,7/13/1995,1931
+ALLE,Allegion,Industrials,New York,12/2/2013,1908
+AMAT,Applied Materials,Information Technology,California,3/16/1995,1967
+AMCR,Amcor,Materials,Switzerland,6/7/2019,1860
+AMD,Advanced Micro Devices,Information Technology,California,,1969
+AME,Ametek,Industrials,Pennsylvania,9/23/2013,1930
+AMGN,Amgen,Health Care,California,1/2/1992,1980
+AMP,Ameriprise Financial,Financials,Minnesota,10/3/2005,1894
+AMT,American Tower,Real Estate,Massachusetts,11/19/2007,1995
+AMZN,Amazon,Consumer Discretionary,Washington,11/18/2005,1994
+ANET,Arista Networks,Information Technology,California,8/28/2018,2004
+ANSS,Ansys,Information Technology,Pennsylvania,6/19/2017,1969
+ANTM,Anthem,Health Care,Indiana,7/25/2002,1946
+AON,Aon,Financials,UK,4/23/1996,1919
+AOS,A. O. Smith,Industrials,Wisconsin,7/26/2017,1916
+APA,APA Corporation,Energy,Texas,7/28/1997,1954
+APD,Air Products & Chemicals,Materials,Pennsylvania,4/30/1985,1940
+APH,Amphenol,Information Technology,Connecticut,9/30/2008,1932
+APTV,Aptiv,Consumer Discretionary,Ireland,12/24/2012,1994
+ARE,Alexandria Real Estate Equities,Real Estate,California,3/20/2017,1994
+ATO,Atmos Energy,Utilities,Texas,2/15/2019,1906
+ATVI,Activision Blizzard,Communication Services,California,8/31/2015,2008
+AVB,AvalonBay Communities,Real Estate,Virginia[3],1/10/2007,1978
+AVGO,Broadcom,Information Technology,California,5/8/2014,1961
+AVY,Avery Dennison,Materials,California,12/31/1987,1990
+AWK,American Water Works,Utilities,New Jersey,3/4/2016,1886
+AXP,American Express,Financials,New York,6/30/1976,1850
+AZO,AutoZone,Consumer Discretionary,Tennessee,1/2/1997,1979
+BA,Boeing,Industrials,Illinois,3/4/1957,1916
+BAC,Bank of America,Financials,North Carolina,6/30/1976,1874
+BAX,Baxter International,Health Care,Illinois,9/30/1972,1931
+BBWI,Bath & Body Works,Consumer Discretionary,Ohio,9/30/1983,1963
+BBY,Best Buy,Consumer Discretionary,Minnesota,6/29/1999,1966
+BDX,Becton Dickinson,Health Care,New Jersey,9/30/1972,1897
+BEN,Franklin Resources,Financials,California,,1947
+BF.B,Brown–Forman,Consumer Staples,Kentucky,10/31/1982,1870
+BIIB,Biogen,Health Care,Massachusetts,11/13/2003,1978
+BIO,Bio-Rad Laboratories,Health Care,California,6/22/2020,1952
+BK,BNY Mellon,Financials,New York,3/31/1995,1784
+BKNG,Booking Holdings,Consumer Discretionary,Connecticut,11/6/2009,1996
+BKR,Baker Hughes,Energy,Texas,7/7/2017,2017
+BLK,BlackRock,Financials,New York,4/4/2011,1988
+BLL,Ball Corp,Materials,Colorado,10/31/1984,1880
+BMY,Bristol Myers Squibb,Health Care,New York,3/4/1957,1989
+BR,Broadridge Financial Solutions,Information Technology,New York,6/18/2018,1962
+BRK.B,Berkshire Hathaway,Financials,Nebraska,2/16/2010,1839
+BRO,Brown & Brown,Financials,Florida,9/20/2021,1939
+BSX,Boston Scientific,Health Care,Massachusetts[4],2/24/1995,1979
+BWA,BorgWarner,Consumer Discretionary,Michigan,12/19/2011,1880
+BXP,Boston Properties,Real Estate,Massachusetts,4/3/2006,1970
+C,Citigroup,Financials,New York,5/31/1988,1998
+CAG,Conagra Brands,Consumer Staples,Illinois,8/31/1983,1919
+CAH,Cardinal Health,Health Care,Ohio,5/27/1997,1971
+CARR,Carrier Global,Industrials,Florida,4/3/2020,1915
+CAT,Caterpillar,Industrials,Illinois,3/4/1957,1925
+CB,Chubb,Financials,Switzerland,7/15/2010,1985
+CBOE,Cboe Global Markets,Financials,Illinois,3/1/2017,1973
+CBRE,CBRE,Real Estate,Texas,11/10/2006,1906
+CCI,Crown Castle,Real Estate,Texas,3/14/2012,1994
+CCL,Carnival Corporation,Consumer Discretionary,Florida,12/22/1998,1972
+CDAY,Ceridian,Information Technology,Minnesota,9/20/2021,1992
+CDNS,Cadence Design Systems,Information Technology,California,9/18/2017,1988
+CDW,CDW,Information Technology,Illinois,9/23/2019,1984
+CE,Celanese,Materials,Texas,12/24/2018,1918
+CERN,Cerner,Health Care,Missouri,4/30/2010,1979
+CF,CF Industries,Materials,Illinois,8/27/2008,1946
+CFG,Citizens Financial Group,Financials,Rhode Island,1/29/2016,1828
+CHD,Church & Dwight,Consumer Staples,New Jersey,12/29/2015,1847
+CHRW,C. H. Robinson,Industrials,Minnesota,3/2/2007,1905
+CHTR,Charter Communications,Communication Services,Connecticut,9/8/2016,1993
+CI,Cigna,Health Care,Connecticut,6/30/1976,1982
+CINF,Cincinnati Financial,Financials,Ohio,12/18/1997,1950
+CL,Colgate-Palmolive,Consumer Staples,New York,3/4/1957,1806
+CLX,Clorox,Consumer Staples,California,3/31/1969,1913
+CMA,Comerica,Financials,Texas,12/1/1995,1849
+CMCSA,Comcast,Communication Services,Pennsylvania,11/19/2002,1963
+CME,CME Group,Financials,Illinois,8/11/2006,1848
+CMG,Chipotle Mexican Grill,Consumer Discretionary,California,4/28/2011,1993
+CMI,Cummins,Industrials,Indiana,3/31/1965,1919
+CMS,CMS Energy,Utilities,Michigan,5/3/1999,1886
+CNC,Centene,Health Care,Missouri,3/30/2016,1984
+CNP,CenterPoint Energy,Utilities,Texas,7/31/1985,1882
+COF,Capital One,Financials,Virginia,7/1/1998,1994
+COO,The Cooper Companies,Health Care,California,9/23/2016,1958
+COP,ConocoPhillips,Energy,Texas,3/4/1957,2002
+COST,Costco,Consumer Staples,Washington,10/1/1993,1976
+CPB,Campbell Soup,Consumer Staples,New Jersey,3/4/1957,1869
+CPRT,Copart,Industrials,Texas,7/2/2018,1982
+CRL,Charles River Laboratories,Health Care,Massachusetts,5/14/2021,1947
+CRM,Salesforce,Information Technology,California,9/15/2008,1999
+CSCO,Cisco Systems,Information Technology,California,12/1/1993,1984
+CSX,CSX,Industrials,Florida,9/30/1967,1980
+CTAS,Cintas Corporation,Industrials,Ohio,3/1/2001,1929
+CTLT,Catalent,Health Care,New Jersey,9/21/2020,2007
+CTRA,Coterra,Energy,Texas,6/23/2008,1989
+CTSH,Cognizant Technology Solutions,Information Technology,New Jersey,11/17/2006,1994
+CTVA,Corteva,Materials,Delaware,6/3/2019,2019
+CTXS,Citrix Systems,Information Technology,Florida,12/1/1999,1989
+CVS,CVS Health,Health Care,Rhode Island,3/4/1957,1996
+CVX,Chevron,Energy,California,3/4/1957,1879
+CZR,Caesars Entertainment,Consumer Discretionary,Nevada,3/22/2021,1973
+D,Dominion Energy,Utilities,Virginia,,1983
+DAL,Delta Air Lines,Industrials,Georgia,9/11/2013,1929
+DD,DuPont,Materials,Delaware,4/2/2019,2017
+DE,Deere & Co.,Industrials,Illinois,3/4/1957,1837
+DFS,Discover Financial Services,Financials,Illinois,7/2/2007,1985
+DG,Dollar General,Consumer Discretionary,Tennessee,12/3/2012,1939
+DGX,Quest Diagnostics,Health Care,New Jersey,12/12/2002,1967
+DHI,D. R. Horton,Consumer Discretionary,Texas,6/22/2005,1978
+DHR,Danaher,Health Care,D.C.,,1969
+DIS,The Walt Disney Company,Communication Services,California,6/30/1976,1923
+DISCA,Discovery (Series A),Communication Services,New York,3/1/2010,1985
+DISCK,Discovery (Series C),Communication Services,New York,8/7/2014,1985
+DISH,Dish Network,Communication Services,Colorado,3/13/2017,1980
+DLR,Digital Realty Trust,Real Estate,Texas,5/18/2016,2004
+DLTR,Dollar Tree,Consumer Discretionary,Virginia,12/19/2011,1986
+DOV,Dover Corporation,Industrials,Illinois,10/31/1985,1955
+DOW,Dow,Materials,Michigan,4/1/2019,2019
+DPZ,Domino's Pizza,Consumer Discretionary,Michigan,5/12/2020,1960
+DRE,Duke Realty Corp,Real Estate,Indiana,7/26/2017,1972
+DRI,Darden Restaurants,Consumer Discretionary,Florida,,1938
+DTE,DTE Energy,Utilities,Michigan,3/4/1957,1995
+DUK,Duke Energy,Utilities,North Carolina,6/30/1976,1904
+DVA,DaVita,Health Care,Colorado,7/31/2008,1979
+DVN,Devon Energy,Energy,Oklahoma,8/30/2000,1971
+DXC,DXC Technology,Information Technology,Virginia,4/4/2017,2017
+DXCM,DexCom,Health Care,California,5/12/2020,1999
+EA,Electronic Arts,Communication Services,California,7/22/2002,1982
+EBAY,eBay,Consumer Discretionary,California,7/22/2002,1995
+ECL,Ecolab,Materials,Minnesota,1/31/1989,1923
+ED,Consolidated Edison,Utilities,New York,,1823
+EFX,Equifax,Industrials,Georgia,6/19/1997,1899
+EIX,Edison International,Utilities,California,3/4/1957,1886
+EL,Estée Lauder Companies,Consumer Staples,New York,1/5/2006,1946
+EMN,Eastman Chemical,Materials,Tennessee,1/1/1994,1920
+EMR,Emerson Electric,Industrials,Missouri,3/31/1965,1890
+ENPH,Enphase Energy,Information Technology,California,1/7/2021,2006
+EOG,EOG Resources,Energy,Texas,11/2/2000,1999
+EQIX,Equinix,Real Estate,California,3/20/2015,1998
+EQR,Equity Residential,Real Estate,Illinois,12/3/2001,1969
+ES,Eversource Energy,Utilities,Connecticut,,1966
+ESS,Essex Property Trust,Real Estate,California,4/2/2014,1971
+ETN,Eaton Corporation,Industrials,Ireland,,1911
+ETR,Entergy,Utilities,Louisiana,3/4/1957,1913
+ETSY,Etsy,Consumer Discretionary,New York,9/21/2020,2005
+EVRG,Evergy,Utilities,Missouri,6/5/2018,1909
+EW,Edwards Lifesciences,Health Care,California,4/1/2011,1958
+EXC,Exelon,Utilities,Illinois,3/4/1957,2000
+EXPD,Expeditors,Industrials,Washington,10/10/2007,1979
+EXPE,Expedia Group,Consumer Discretionary,Washington,10/2/2007,1996
+EXR,Extra Space Storage,Real Estate,Utah,1/19/2016,1977
+F,Ford,Consumer Discretionary,Michigan,3/4/1957,1903
+FANG,Diamondback Energy,Energy,Texas,12/3/2018,2007
+FAST,Fastenal,Industrials,Minnesota,9/15/2008,1967
+FB,Meta Platforms,Communication Services,California,12/23/2013,2004
+FBHS,Fortune Brands Home & Security,Industrials,Illinois,6/22/2016,1969
+FCX,Freeport-McMoRan,Materials,Arizona,,1912
+FDX,FedEx,Industrials,Tennessee,12/31/1980,1971
+FE,FirstEnergy,Utilities,Ohio,,1997
+FFIV,F5 Networks,Information Technology,Washington,12/20/2010,1996
+FIS,Fidelity National Information Services,Information Technology,Florida,11/10/2006,1968
+FISV,Fiserv,Information Technology,Wisconsin,4/2/2001,1984
+FITB,Fifth Third Bancorp,Financials,Ohio,,1858
+FLT,Fleetcor,Information Technology,Georgia,6/20/2018,2000
+FMC,FMC Corporation,Materials,Pennsylvania,8/19/2009,1883
+FOX,Fox Corporation (Class B),Communication Services,New York,9/18/2015,2019
+FOXA,Fox Corporation (Class A),Communication Services,New York,7/1/2013,2019
+FRC,First Republic Bank,Financials,California,1/2/2019,1985
+FRT,Federal Realty Investment Trust,Real Estate,Maryland,2/1/2016,1962
+FTNT,Fortinet,Information Technology,California,10/11/2018,2000
+FTV,Fortive,Industrials,Washington,7/1/2016,2016
+GD,General Dynamics,Industrials,Virginia,3/4/1957,1899
+GE,General Electric,Industrials,Massachusetts,,1892
+GILD,Gilead Sciences,Health Care,California,7/1/2004,1987
+GIS,General Mills,Consumer Staples,Minnesota,3/31/1969,1856
+GL,Globe Life,Financials,Texas,4/30/1989,1900
+GLW,Corning,Information Technology,New York,,1851
+GM,General Motors,Consumer Discretionary,Michigan,6/6/2013,1908
+GNRC,Generac Holdings,Industrials,Wisconsin,3/22/2021,1959
+GOOG,Alphabet (Class C),Communication Services,California,4/3/2006,1998
+GOOGL,Alphabet (Class A),Communication Services,California,4/3/2014,1998
+GPC,Genuine Parts,Consumer Discretionary,Georgia,12/31/1973,1925
+GPN,Global Payments,Information Technology,Georgia,4/25/2016,2000
+GPS,Gap,Consumer Discretionary,California,8/31/1986,1969
+GRMN,Garmin,Consumer Discretionary,Switzerland,12/12/2012,1989
+GS,Goldman Sachs,Financials,New York,7/22/2002,1869
+GWW,W. W. Grainger,Industrials,Illinois,6/30/1981,1927
+HAL,Halliburton,Energy,Texas,3/4/1957,1919
+HAS,Hasbro,Consumer Discretionary,Rhode Island,9/30/1984,1923
+HBAN,Huntington Bancshares,Financials,"Ohio; Detroit, Michi",,1866
+HBI,Hanesbrands,Consumer Discretionary,North Carolina,3/20/2015,2000
+HCA,HCA Healthcare,Health Care,Tennessee,1/27/2015,1968
+HD,Home Depot,Consumer Discretionary,Georgia,3/31/1988,1978
+HES,Hess Corporation,Energy,New York,5/31/1984,1919
+HIG,The Hartford,Financials,Connecticut,3/4/1957,1810
+HII,Huntington Ingalls Industries,Industrials,Virginia,1/3/2018,2011
+HLT,Hilton Worldwide,Consumer Discretionary,Virginia,6/19/2017,1919
+HOLX,Hologic,Health Care,Massachusetts,3/30/2016,1985
+HON,Honeywell,Industrials,North Carolina,3/31/1964,1906
+HPE,Hewlett Packard Enterprise,Information Technology,Texas,11/2/2015,2015
+HPQ,HP,Information Technology,California,12/31/1974,1939
+HRL,Hormel,Consumer Staples,Minnesota,3/4/2009,1891
+HSIC,Henry Schein,Health Care,New York,3/17/2015,1932
+HST,Host Hotels & Resorts,Real Estate,Maryland,3/20/2007,1993
+HSY,The Hershey Company,Consumer Staples,Pennsylvania,3/4/1957,1894
+HUM,Humana,Health Care,Kentucky,,1961
+HWM,Howmet Aerospace,Industrials,Pennsylvania,3/31/1964,2016
+IBM,IBM,Information Technology,New York,3/4/1957,1911
+ICE,Intercontinental Exchange,Financials,Georgia,9/26/2007,2000
+IDXX,Idexx Laboratories,Health Care,Maine,1/5/2017,1983
+IEX,IDEX Corporation,Industrials,Illinois,8/9/2019,1988
+IFF,International Flavors & Fragrances,Materials,New York,3/31/1976,1889
+ILMN,Illumina,Health Care,California,11/19/2015,1998
+INCY,Incyte,Health Care,Delaware,2/28/2017,1991
+INFO,IHS Markit,Industrials,England,6/2/2017,1959
+INTC,Intel,Information Technology,California,12/31/1976,1968
+INTU,Intuit,Information Technology,California,12/5/2000,1983
+IP,International Paper,Materials,Tennessee,3/4/1957,1898
+IPG,Interpublic Group,Communication Services,New York,10/1/1992,1930
+IPGP,IPG Photonics,Information Technology,Massachusetts,3/7/2018,1990
+IQV,IQVIA,Health Care,North Carolina,8/29/2017,1982
+IR,Ingersoll Rand,Industrials,Wisconsin,3/3/2020,1859
+IRM,Iron Mountain,Real Estate,Massachusetts,1/6/2009,1951
+ISRG,Intuitive Surgical,Health Care,California,6/2/2008,1995
+IT,Gartner,Information Technology,Connecticut,4/5/2017,1979
+ITW,Illinois Tool Works,Industrials,Illinois,2/28/1986,1912
+IVZ,Invesco,Financials,Georgia,8/21/2008,1935
+J,Jacobs Engineering Group,Industrials,Texas,10/26/2007,1947
+JBHT,J. B. Hunt,Industrials,Arkansas,7/1/2015,1961
+JCI,Johnson Controls,Industrials,Ireland,8/27/2010,1885
+JKHY,Jack Henry & Associates,Information Technology,Missouri,11/13/2018,1976
+JNJ,Johnson & Johnson,Health Care,New Jersey,6/30/1973,1886
+JNPR,Juniper Networks,Information Technology,California,6/2/2006,1996
+JPM,JPMorgan Chase,Financials,New York,6/30/1975,1799
+K,Kellogg's,Consumer Staples,Michigan,9/11/1989,1906
+KEY,KeyCorp,Financials,Ohio,3/1/1994,1825
+KEYS,Keysight Technologies,Information Technology,California,11/6/2018,2014
+KHC,Kraft Heinz,Consumer Staples,Illinois; Pittsburgh,7/6/2015,1869
+KIM,Kimco Realty,Real Estate,New York,4/4/2006,1958
+KLAC,KLA Corporation,Information Technology,California,,1975
+KMB,Kimberly-Clark,Consumer Staples,Texas,3/4/1957,1872
+KMI,Kinder Morgan,Energy,Texas,5/25/2012,1997
+KMX,CarMax,Consumer Discretionary,Virginia,6/28/2010,1993
+KO,Coca-Cola,Consumer Staples,Georgia,3/4/1957,1886
+KR,Kroger,Consumer Staples,Ohio,3/4/1957,1883
+KSU,Kansas City Southern,Industrials,Missouri,5/24/2013,1887
+L,Loews Corporation,Financials,New York,,1959
+LDOS,Leidos,Industrials,Virginia,8/9/2019,1969
+LEG,Leggett & Platt,Consumer Discretionary,Missouri,10/14/1999,1883
+LEN,Lennar,Consumer Discretionary,Florida,10/4/2005,1954
+LH,LabCorp,Health Care,North Carolina,11/1/2004,1978
+LHX,L3Harris Technologies,Industrials,Florida,9/22/2008,1895
+LIN,Linde,Materials,England,7/1/1992,1879
+LKQ,LKQ Corporation,Consumer Discretionary,Illinois,5/23/2016,1998
+LLY,Eli Lilly,Health Care,Indiana,12/31/1970,1876
+LMT,Lockheed Martin,Industrials,Maryland,7/31/1984,1995
+LNC,Lincoln National,Financials,Pennsylvania,6/30/1976,1905
+LNT,Alliant Energy,Utilities,Wisconsin,7/1/2016,1917
+LOW,Lowe's,Consumer Discretionary,North Carolina,2/29/1984,1904
+LRCX,Lam Research,Information Technology,California,6/29/2012,1980
+LUMN,Lumen Technologies,Communication Services,Louisiana,3/25/1999,1877
+LUV,Southwest Airlines,Industrials,Texas,7/1/1994,1967
+LVS,Las Vegas Sands,Consumer Discretionary,Nevada,10/3/2019,1988
+LW,Lamb Weston,Consumer Staples,Idaho,12/3/2018,1950
+LYB,LyondellBasell,Materials,Netherlands,9/5/2012,2007
+LYV,Live Nation Entertainment,Communication Services,California,12/23/2019,2010
+MA,Mastercard,Information Technology,New York,7/18/2008,1966
+MAA,Mid-America Apartments,Real Estate,Tennessee,12/2/2016,1977
+MAR,Marriott International,Consumer Discretionary,Maryland,,1927
+MAS,Masco,Industrials,Michigan,6/30/1981,1929
+MCD,McDonald's,Consumer Discretionary,Illinois,6/30/1970,1940
+MCHP,Microchip Technology,Information Technology,Arizona,9/7/2007,1989
+MCK,McKesson Corporation,Health Care,Texas,,1833
+MCO,Moody's,Financials,New York,,1909
+MDLZ,Mondelez International,Consumer Staples,Illinois,10/2/2012,2012
+MDT,Medtronic,Health Care,Ireland,10/31/1986,1949
+MET,MetLife,Financials,New York,,1868
+MGM,MGM Resorts International,Consumer Discretionary,Nevada,7/26/2017,1986
+MHK,Mohawk Industries,Consumer Discretionary,Georgia,12/23/2013,1878
+MKC,McCormick & Company,Consumer Staples,Maryland,3/20/2003,1889
+MKTX,MarketAxess,Financials,New York,7/1/2019,2000
+MLM,Martin Marietta Materials,Materials,North Carolina,7/2/2014,1993
+MMC,Marsh & McLennan,Financials,New York,8/31/1987,1905
+MMM,3M,Industrials,Minnesota,8/9/1976,1902
+MNST,Monster Beverage,Consumer Staples,California,6/28/2012,1935
+MO,Altria Group,Consumer Staples,Virginia,3/4/1957,1985
+MOS,The Mosaic Company,Materials,Florida,9/26/2011,1865
+MPC,Marathon Petroleum,Energy,Ohio,7/1/2011,1887
+MPWR,Monolithic Power Systems,Information Technology,Washington,2/12/2021,1997
+MRK,Merck,Health Care,New Jersey,3/4/1957,1891
+MRNA,Moderna,Health Care,Massachusetts,7/21/2021,2010
+MRO,Marathon Oil,Energy,Texas,5/1/1991,1887
+MS,Morgan Stanley,Financials,New York,,1935
+MSCI,MSCI,Financials,New York,4/4/2018,1969
+MSFT,Microsoft,Information Technology,Washington,6/1/1994,1975
+MSI,Motorola Solutions,Information Technology,Illinois,,1928
+MTB,M&T Bank,Financials,New York,2/23/2004,1856
+MTCH,Match Group,Communication Services,Texas,9/20/2021,1986
+MTD,Mettler Toledo,Health Care,Ohio,9/6/2016,1945
+MU,Micron Technology,Information Technology,Idaho,9/27/1994,1978
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,Florida,10/13/2017,1966
+NDAQ,Nasdaq,Financials,New York,10/22/2008,1971
+NEE,NextEra Energy,Utilities,Florida,6/30/1976,1925
+NEM,Newmont,Materials,Colorado,6/30/1969,1921
+NFLX,Netflix,Communication Services,California,12/20/2010,1997
+NI,NiSource,Utilities,Indiana,,1912
+NKE,Nike,Consumer Discretionary,Oregon,11/30/1988,1964
+NLOK,NortonLifeLock,Information Technology,Arizona,3/25/2003,1982
+NLSN,Nielsen Holdings,Industrials,New York,7/9/2013,1923
+NOC,Northrop Grumman,Industrials,Virginia,6/30/1985,1930
+NOW,ServiceNow,Information Technology,California,11/21/2019,2003
+NRG,NRG Energy,Utilities,Texas,1/29/2010,1992
+NSC,Norfolk Southern,Industrials,Virginia,3/4/1957,1881
+NTAP,NetApp,Information Technology,California,6/25/1999,1992
+NTRS,Northern Trust,Financials,Illinois,,1889
+NUE,Nucor,Materials,North Carolina,4/30/1985,1940
+NVDA,Nvidia,Information Technology,California,11/30/2001,1993
+NVR,NVR,Consumer Discretionary,Virginia,9/26/2019,1980
+NWL,Newell Brands,Consumer Discretionary,Georgia,4/30/1989,1903
+NWS,News Corp (Class B),Communication Services,New York,9/18/2015,1980
+NWSA,News Corp (Class A),Communication Services,New York,8/1/2013,1980
+NXPI,NXP,Information Technology,Netherlands,3/22/2021,1953
+O,Realty Income Corporation,Real Estate,California,4/7/2015,1969
+ODFL,Old Dominion Freight Line,Industrials,North Carolina,12/9/2019,1934
+OGN,Organon & Co.,Health Care,New Jersey,6/3/2021,2021
+OKE,Oneok,Energy,Oklahoma,3/15/2010,1906
+OMC,Omnicom Group,Communication Services,New York,,1986
+ORCL,Oracle,Information Technology,Texas,8/31/1989,1977
+ORLY,O'Reilly Automotive,Consumer Discretionary,Missouri,3/27/2009,1957
+OTIS,Otis Worldwide,Industrials,Connecticut,4/3/2020,1853
+OXY,Occidental Petroleum,Energy,Texas,12/31/1982,1920
+PAYC,Paycom,Information Technology,Oklahoma,1/28/2020,1998
+PAYX,Paychex,Information Technology,New York,,1971
+PBCT,People's United Financial,Financials,Connecticut,11/13/2008,1842
+PCAR,Paccar,Industrials,Washington,12/31/1980,1905
+PEAK,Healthpeak Properties,Real Estate,California,3/31/2008,1985
+PEG,Public Service Enterprise Group,Utilities,New Jersey,3/4/1957,1903
+PENN,Penn National Gaming,Consumer Discretionary,Pennsylvania,3/22/2021,1972
+PEP,PepsiCo,Consumer Staples,New York,3/4/1957,1898
+PFE,Pfizer,Health Care,New York,3/4/1957,1849
+PFG,Principal Financial Group,Financials,Iowa,7/22/2002,1879
+PG,Procter & Gamble,Consumer Staples,Ohio,3/4/1957,1837
+PGR,Progressive Corporation,Financials,Ohio,8/4/1997,1937
+PH,Parker-Hannifin,Industrials,Ohio,11/30/1985,1917
+PHM,PulteGroup,Consumer Discretionary,Georgia,4/30/1984,1956
+PKG,Packaging Corporation of America,Materials,Illinois,7/26/2017,1959
+PKI,PerkinElmer,Health Care,Massachusetts,5/31/1985,1937
+PLD,Prologis,Real Estate,California,7/17/2003,1983
+PM,Philip Morris International,Consumer Staples,New York,3/31/2008,1847
+PNC,PNC Financial Services,Financials,Pennsylvania,4/30/1988,1845
+PNR,Pentair,Industrials,England,10/1/2012,1966
+PNW,Pinnacle West Capital,Utilities,Arizona,,1985
+POOL,Pool Corporation,Consumer Discretionary,Louisiana,10/7/2020,1993
+PPG,PPG Industries,Materials,Pennsylvania,3/4/1957,1883
+PPL,PPL,Utilities,Pennsylvania,,1920
+PRU,Prudential Financial,Financials,New Jersey,7/22/2002,1875
+PSA,Public Storage,Real Estate,California,8/19/2005,1972
+PSX,Phillips 66,Energy,Texas,5/1/2012,1917
+PTC,PTC,Information Technology,Massachusetts,4/20/2021,1985
+PVH,PVH,Consumer Discretionary,New York,2/15/2013,1881
+PWR,Quanta Services,Industrials,Texas,7/1/2009,1997
+PXD,Pioneer Natural Resources,Energy,Texas,9/24/2008,1997
+PYPL,PayPal,Information Technology,California,7/20/2015,1998
+QCOM,Qualcomm,Information Technology,California,,1985
+QRVO,Qorvo,Information Technology,North Carolina,6/11/2015,2015
+RCL,Royal Caribbean Group,Consumer Discretionary,Florida,12/5/2014,1997
+RE,Everest Re,Financials,Bermuda,6/19/2017,1973
+REG,Regency Centers,Real Estate,Florida,3/2/2017,1963
+REGN,Regeneron Pharmaceuticals,Health Care,New York,5/1/2013,1988
+RF,Regions Financial Corporation,Financials,Alabama,8/28/1998,1971
+RHI,Robert Half International,Industrials,California,12/5/2000,1948
+RJF,Raymond James Financial,Financials,Florida,3/20/2017,1962
+RL,Ralph Lauren Corporation,Consumer Discretionary,New York,2/2/2007,1967
+RMD,ResMed,Health Care,California,7/26/2017,1989
+ROK,Rockwell Automation,Industrials,Wisconsin,,1903
+ROL,Rollins,Industrials,Georgia,10/1/2018,1948
+ROP,Roper Technologies,Industrials,Florida,12/23/2009,1981
+ROST,Ross Stores,Consumer Discretionary,California,12/21/2009,1982
+RSG,Republic Services,Industrials,Arizona,12/5/2008,1981
+RTX,Raytheon Technologies,Industrials,Massachusetts,,1922
+SBAC,SBA Communications,Real Estate,Florida,9/1/2017,1989
+SBUX,Starbucks,Consumer Discretionary,Washington,,1971
+SCHW,Charles Schwab,Financials,Texas,6/2/1997,1971
+SEE,Sealed Air,Materials,North Carolina,3/4/1957,1960
+SHW,Sherwin-Williams,Materials,Ohio,6/30/1964,1866
+SIVB,SVB Financial,Financials,California,3/19/2018,1983
+SJM,JM Smucker,Consumer Staples,Ohio,11/6/2008,1897
+SLB,Schlumberger,Energy,Kingdom of the Nethe,3/31/1965,1926
+SNA,Snap-on,Industrials,Wisconsin,9/30/1982,1920
+SNPS,Synopsys,Information Technology,California,3/16/2017,1986
+SO,Southern Company,Utilities,Georgia,3/4/1957,1945
+SPG,Simon Property Group,Real Estate,Indiana,6/26/2002,2003
+SPGI,S&P Global,Financials,New York,,1917
+SRE,Sempra Energy,Utilities,California,,1998
+STE,Steris,Health Care,Ireland,12/23/2019,1985
+STT,State Street Corporation,Financials,Massachusetts,,1792
+STX,Seagate Technology,Information Technology,Ireland,7/2/2012,1979
+STZ,Constellation Brands,Consumer Staples,New York,7/1/2005,1945
+SWK,Stanley Black & Decker,Industrials,Connecticut,9/30/1982,1843
+SWKS,Skyworks Solutions,Information Technology,Massachusetts,3/12/2015,2002
+SYF,Synchrony Financial,Financials,Connecticut,11/18/2015,2003
+SYK,Stryker Corporation,Health Care,Michigan,12/12/2000,1941
+SYY,Sysco,Consumer Staples,Texas,12/31/1986,1969
+T,AT&T,Communication Services,Texas,1983-11-30 (1957-03-04),1885
+TAP,Molson Coors,Consumer Staples,Illinois,6/30/1976,1786
+TDG,TransDigm Group,Industrials,Ohio,6/3/2016,1993
+TDY,Teledyne Technologies,Industrials,California,6/22/2020,1960
+TECH,Bio-Techne,Health Care,Minnesota,8/30/2021,1976
+TEL,TE Connectivity,Information Technology,Switzerland,10/17/2011,2007
+TER,Teradyne,Information Technology,Massachusetts,9/21/2020,1960
+TFC,Truist Financial,Financials,North Carolina,12/4/1997,1872
+TFX,Teleflex,Health Care,Pennsylvania,1/18/2019,1943
+TGT,Target,Consumer Discretionary,Minnesota,12/31/1976,1902
+TJX,TJX Companies,Consumer Discretionary,Massachusetts,9/30/1985,1987
+TMO,Thermo Fisher Scientific,Health Care,Massachusetts,8/3/2004,1902
+TMUS,T-Mobile US,Communication Services,Washington,7/15/2019,1994
+TPR,Tapestry,Consumer Discretionary,New York,,2017
+TRMB,Trimble,Information Technology,California,1/21/2021,1978
+TROW,T. Rowe Price,Financials,Maryland,,1937
+TRV,The Travelers Companies,Financials,New York,8/21/2002,1853
+TSCO,Tractor Supply Company,Consumer Discretionary,Tennessee,1/24/2014,1938
+TSLA,Tesla,Consumer Discretionary,California,12/21/2020,2003
+TSN,Tyson Foods,Consumer Staples,Arkansas,8/10/2005,1935
+TT,Trane Technologies,Industrials,Ireland,11/17/2010,1871
+TTWO,Take-Two Interactive,Communication Services,New York,3/19/2018,1993
+TWTR,Twitter,Communication Services,California,6/7/2018,2006
+TXN,Texas Instruments,Information Technology,Texas,,1930
+TXT,Textron,Industrials,Rhode Island,12/31/1978,1923
+TYL,Tyler Technologies,Information Technology,Texas,6/22/2020,1966
+UA,Under Armour (Class C),Consumer Discretionary,Maryland,4/8/2016,1996
+UAA,Under Armour (Class A),Consumer Discretionary,Maryland,5/1/2014,1996
+UAL,United Airlines,Industrials,Illinois,9/3/2015,1967
+UDR,UDR,Real Estate,Colorado,3/7/2016,1972
+UHS,Universal Health Services,Health Care,Pennsylvania,9/20/2014,1979
+ULTA,Ulta Beauty,Consumer Discretionary,Illinois,4/18/2016,1990
+UNH,UnitedHealth Group,Health Care,Minnesota,7/1/1994,1977
+UNP,Union Pacific,Industrials,Nebraska,3/4/1957,1862
+UPS,United Parcel Service,Industrials,Georgia,7/22/2002,1907
+URI,United Rentals,Industrials,Connecticut,9/20/2014,1997
+USB,U.S. Bancorp,Financials,Minnesota,,1968
+V,Visa,Information Technology,California,12/21/2009,1958
+VFC,VF Corporation,Consumer Discretionary,Colorado,6/30/1979,1899
+VIAC,ViacomCBS,Communication Services,New York,,1952
+VLO,Valero Energy,Energy,Texas,,1980
+VMC,Vulcan Materials,Materials,Alabama,6/30/1999,1909
+VNO,Vornado Realty Trust,Real Estate,New York,,1982
+VRSK,Verisk Analytics,Industrials,New Jersey,10/8/2015,1971
+VRSN,Verisign,Information Technology,Virginia,2/1/2006,1995
+VRTX,Vertex Pharmaceuticals,Health Care,Massachusetts,9/23/2013,1989
+VTR,Ventas,Real Estate,Illinois,3/4/2009,1998
+VTRS,Viatris,Health Care,Pennsylvania,4/23/2004,1961
+VZ,Verizon Communications,Communication Services,New York,11/30/1983,1877
+WAB,Wabtec,Industrials,Pennsylvania,2/27/2019,1869
+WAT,Waters Corporation,Health Care,Massachusetts,,1958
+WBA,Walgreens Boots Alliance,Consumer Staples,Illinois,12/31/1979,2014
+WDC,Western Digital,Information Technology,California,7/1/2009,1970
+WEC,WEC Energy Group,Utilities,Wisconsin,10/31/2008,1896
+WELL,Welltower,Real Estate,Ohio,1/30/2009,1970
+WFC,Wells Fargo,Financials,California,6/30/1976,1852
+WHR,Whirlpool Corporation,Consumer Discretionary,Michigan,,1911
+WLTW,Willis Towers Watson,Financials,England,1/5/2016,2016
+WM,Waste Management,Industrials,Texas,,1968
+WMB,Williams Companies,Energy,Oklahoma,3/31/1975,1908
+WMT,Walmart,Consumer Staples,Arkansas,8/31/1982,1962
+WRB,W. R. Berkley Corporation,Financials,Connecticut,12/5/2019,1967
+WRK,WestRock,Materials,Georgia,,2015
+WST,West Pharmaceutical Services,Health Care,Pennsylvania,5/22/2020,1923
+WU,Western Union,Information Technology,Colorado,9/29/2006,1851
+WY,Weyerhaeuser,Real Estate,Washington,,1900
+WYNN,Wynn Resorts,Consumer Discretionary,Nevada,11/14/2008,2002
+XEL,Xcel Energy,Utilities,Minnesota,3/4/1957,1909
+XLNX,Xilinx,Information Technology,California,11/8/1999,1984
+XOM,ExxonMobil,Energy,Texas,3/4/1957,1999
+XRAY,Dentsply Sirona,Health Care,North Carolina,11/14/2008,1969
+XYL,Xylem,Industrials,New York,11/1/2011,2011
+YUM,Yum! Brands,Consumer Discretionary,Kentucky,10/6/1997,1997
+ZBH,Zimmer Biomet,Health Care,Indiana,8/7/2001,1927
+ZBRA,Zebra Technologies,Information Technology,Illinois,12/23/2019,1969
+ZION,Zions Bancorp,Financials,Utah,6/22/2001,1873
+ZTS,Zoetis,Health Care,New Jersey,6/21/2013,1952

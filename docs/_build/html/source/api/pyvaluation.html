@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="English" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PyValuation &mdash; PyValuation  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="Welcome to PyValuation&#39;s documentation!" href="../../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> PyValuation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">PyValuation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#get-started">Get started</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#financialdata">FinancialData</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#valuationcharts">ValuationCharts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#valuation">Valuation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dcf">DCF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#relativevalue">RelativeValue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#portfoliovaluation">PortfolioValuation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PyValuation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>PyValuation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/source/api/pyvaluation.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="pyvaluation">
+<h1>PyValuation<a class="headerlink" href="#pyvaluation" title="Permalink to this heading"></a></h1>
+<p>A library for stock and portfolio valuation. This was originally made to
+help aid in my own stock valuation approach but I wanted to allow others
+to utilize this code as well. The library is made up of four basic
+parent classes that inherent from two child classes. The four parent
+classes are DCF, Valuation, RelativeValue and PortfolioValuation and the
+two child classes are FinancialData and ValuationCharts.</p>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
+<blockquote>
+<div><p>pip install PyValuation</p>
+</div></blockquote>
+</section>
+<section id="get-started">
+<h2>Get started<a class="headerlink" href="#get-started" title="Permalink to this heading"></a></h2>
+<section id="financialdata">
+<h3>FinancialData<a class="headerlink" href="#financialdata" title="Permalink to this heading"></a></h3>
+<p>The child class FinancialData is used for calculating numerous stock
+valuation metrics. These valuation metrics include Price to Earnings,
+Price to Sales, Return on Capital, company margins and others.</p>
+<p>FinancialData class also acts as a parent class and inherents the
+FinancialStatements child class.</p>
+<p>The FinancialStatements child class uses two methods to pull companies
+Income Statements, Balance Sheets and Cash Flow Statements. The first
+method is a basic call to the yfinance modules respective
+get_financials, get_balancesheet, get_cashflow functions. The second
+method FinancialStatements uses is a webscrapping version where we
+utilize BeautifulSoup from the bs4 module to pull the companies
+financial statements from yahoo finance directly.</p>
+<p>How to pull specific financial statments using both methods.</p>
+<ol class="arabic simple">
+<li><p>yfinance module</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">FinancialData</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">balancesheet</span><span class="p">()</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>BeautifulSoup</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">FinancialData</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">soupbalancesheet</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>FinancialData’s main method is the input function used to calculate
+multiple valuation metrics and inputs for a discounted cash flow model.</p>
+<p>How to use FinancialData’s input function.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">FinancialData</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">_inputs</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>The inputs function will return a dictonary of valutaion metrics
+including the following, Retention Ratio’s, Reinvestment Rate, Cost of
+Equity, Return on Capital and others.</p>
+</section>
+<section id="valuationcharts">
+<h3>ValuationCharts<a class="headerlink" href="#valuationcharts" title="Permalink to this heading"></a></h3>
+<p>ValuationCharts is another child class that calculates valuation metrics
+and plots them over time. This is useful for analyzing how specific
+company metrics change during certain market periods.</p>
+<p>ValuationCharts relies on the bs4 module to web scrape historical shares
+outstanding. The historical shares outstanding is used in numerous other
+calculations like calculating and plotting a historical price to
+earnings ratio.</p>
+<p>How to use Valuation charts</p>
+<ol class="arabic simple">
+<li><p>Plotting shares outstanding over time.</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">ValuationCharts</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">sharesoutstanding_chart</span><span class="p">()</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Plotting basic valuation metric over time</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">ValuationCharts</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">pb_chart</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="valuation">
+<h3>Valuation<a class="headerlink" href="#valuation" title="Permalink to this heading"></a></h3>
+<p>The Valuation class acts as a parent class to ValuationCharts so it has
+multiple plotting capabilities within it. Valuation also calculates
+multiple valuation metrics but displays them using print statements in a
+more visually pleasing manner.</p>
+<p>The Valuation classes main methods are credit_score, cogp and undervalue
+spotting.</p>
+<ol class="arabic simple">
+<li><p>credit_score</p></li>
+</ol>
+<p>The credit_score method uses the modified Altman’s Z-score to calculate
+a make shift credit score and uses a print statement to display the
+stock in questions credit score compared to what its potential credit
+rating would be.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">Valuation</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">credit_score</span><span class="p">()</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>cogp</p></li>
+</ol>
+<p>cogp or core operating growth profile is a useful metric for calculting
+the cash generating power of a company. The cogp method calculates the
+operating cushion and subtracts that from the working capital to revenue
+percentage to get the core operating growth profile.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">Valuation</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">cogp</span><span class="p">()</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>undervalue_spotting</p></li>
+</ol>
+<p>The undervalue_spotting method calculates numeroud valuation metrics and
+uses print statements to display them in a way that is easy to read and
+compare in order to spot if a company is traditionaly undervalued.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">Valuation</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">undervalue_spotting</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="dcf">
+<h3>DCF<a class="headerlink" href="#dcf" title="Permalink to this heading"></a></h3>
+<p>The DCF class is used for dicounted cash flow modeling of a company. The
+DCF class has methods current_cashflows, growth_rates,
+projected_cashflows, intrinsic_value and outside_spread.</p>
+<p>We will use the outside_spread as an example.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">DCF</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">outside_spread</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>We can also specify the inputs for the free cash flow equity and free
+cash flow to the firm that will be used</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">DCF</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">outside_spread</span><span class="p">(</span><span class="mi">10000000000</span><span class="p">,</span> <span class="mi">10000000000</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="relativevalue">
+<h3>RelativeValue<a class="headerlink" href="#relativevalue" title="Permalink to this heading"></a></h3>
+<p>The RelativeValue class does similar calculations as the Valuation class
+but on a larger scale. The RelativeValue class uses a csv that has a
+list of S&amp;P 500 company tickers and there respective industries in order
+to calculate multiple metrics for the specific industry as a whole.</p>
+<p>There is also a market_share function that calculates the total revenue
+of an idustry and then plots pie charts and bar charts showing all the
+companies revenue as a percent of the total industries revenue.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">RelativeValue</span><span class="p">(</span><span class="s1">&#39;TICKER&#39;</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">market_share</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="portfoliovaluation">
+<h3>PortfolioValuation<a class="headerlink" href="#portfoliovaluation" title="Permalink to this heading"></a></h3>
+<p>The PortfolioValuation class is used to evaluate an investors portfolio.
+The class takes as parameters a start date and end date, cash in the
+portfolio and uses the keyword arguments functionality of python for a
+user to input any amount of tickers as the keys and the quantity of
+shares as the value.</p>
+<p>The PortfolioValuation class has methods portfolio_performance,
+asset_allocation and efficient_frontier.</p>
+<ol class="arabic simple">
+<li><p>portfolio_performance</p></li>
+</ol>
+<p>The portfolio_performance method uses the pandas_datareader module to
+pull the stock prices of the given tickers for the specified time period
+then calculates and plots the cumulative return of the aggregated
+portfolio.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">PortfolioValuation</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">TICKER</span> <span class="o">=</span> <span class="n">Quantity</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">portfolio_performance</span><span class="p">()</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>asset_allocation</p></li>
+</ol>
+<p>The asset_allocation method visualises the holding in the portfolio as a
+percent of the aggregate capital in the portfolio as a pie chart.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">PortfolioValuation</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">TICKER</span> <span class="o">=</span> <span class="n">Quantity</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">asset_allocation</span><span class="p">()</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>efficient_frontier</p></li>
+</ol>
+<p>The efficient_frontier module takes as parameters a lower bound and
+upper bound for a target return level, and also takes in as an optional
+parameter the volatility of a portfolio along the effecient frontier.</p>
+<p>The method returns a graph of the effecient frontier and if given the
+volatility parameter the method returns the weights of the optimal
+portfolio.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">PyValuation</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="n">stock</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">PortfolioValuation</span><span class="p">(</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">TICKER</span> <span class="o">=</span> <span class="n">Quantity</span><span class="p">)</span>
+
+<span class="n">stock</span><span class="o">.</span><span class="n">efficient_frontier</span><span class="p">(</span><span class="mf">.1</span><span class="p">,</span> <span class="mf">.3</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../../index.html" class="btn btn-neutral float-left" title="Welcome to PyValuation&#39;s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jason DiBiase.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
